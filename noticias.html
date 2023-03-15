@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cabecera" class="container-fluid p-5 text-white text-center">
+        <h1 class="titulo">Hermandad del Rocío de Montequinto.</h1>
+        <p class="titulo">Que todo el mundo sea rociero.</p> 
+        <nav  class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div id="menu" class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/medalla.png" alt="medalla" width="30em"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div  class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="nuestraHermandad.html">Nuestra Hermandad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Últimas noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="auxilio365.html">Auxilio 365</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeriaFotos.html">Galería de fotos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div>
+      <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form3Example1" class="form-control" />
+              <label class="form-label" for="form3Example1">Nombre</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form3Example2" class="form-control" />
+              <label class="form-label" for="form3Example2">Apellidos</label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form3Example3" class="form-control" />
+          <label class="form-label" for="form3Example3">Correo elextrónico</label>
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form3Example4" class="form-control" />
+          <label class="form-label" for="form3Example4">Contraseña</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+          <label class="form-check-label" for="form2Example33">
+            Suscribete a nuestro boletín de noticias  
+          </label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+      </form>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">Hermandad del Rocío de Montequinto</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://twitter.com/HdadMontequinto?s=20"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg><img src="img/twitter.svg" alt="twitter"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/rociodemontequinto/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg><img src="img/instagram.svg" alt="instagram"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/HdadRocioMontequinto/?locale=es_ES"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg> <img src="img/facebook.svg" alt="facebook"></a></li>
+      </ul>
+  </footer>
+</body>
+</html>
